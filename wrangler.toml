@@ -1,0 +1,11 @@
+name = "Gofile-Telegram-Bot"
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+main = "worker.js"
+compatibility_date = "2024-03-20" 
+
+kv_namespaces = [
+  { binding = "KV", id = "ID_NAMESPACE_ANDA" }
+]
+
+[vars]
+TELEGRAM_TOKEN = "TOKEN_BOT_TELEGRAM_ANDA"
